@@ -114,19 +114,19 @@
 
         FUNCTION {
             bindings = <
-&kp EXCLAMATION  &kp LEFT_BRACKET  &kp HASH    &kp DOLLAR        &kp PERCENT                                 &kp COLON          &kp LS(INT_YEN)      &kp LS(N8)         &kp LS(N9)           &kp LCTRL
-&kp SEMICOLON    &kp SINGLE_QUOTE  &kp LS(N7)  &kp LS(NUMBER_2)  &kp LS(AT_SIGN)  &trans      &kp RS(COLON)  &kp MINUS          &kp SLASH            &kp RS(AT)         &kp LS(RIGHT_BRACE)  &trans
-&kp CARET        &kp LS(NUMBER_6)  &trans      &trans            &kp RS(CARET)    &trans      &kp SLASH      &kp LS(BACKSLASH)  &kp INTERNATIONAL_3  &kp RIGHT_BRACKET  &kp AT               &trans
-&trans           &trans            &trans      &trans            &trans           &trans      &trans         &trans                                                                          &trans
+&kp EXCLAMATION  &kp LEFT_BRACKET  &kp HASH    &kp DOLLAR        &kp PERCENT                                   &kp COLON          &kp LS(INT_YEN)      &kp LS(N8)       &kp LS(N9)       &kp JP_EQUAL
+&kp SEMICOLON    &kp SINGLE_QUOTE  &kp LS(N7)  &kp LS(NUMBER_2)  &kp LEFT_BRACE   &trans      &kp JP_ASTERISK  &kp MINUS          &kp SLASH            &kp JP_LBRACE    &kp JP_RBRACE    &trans
+&kp EQUAL        &kp LS(NUMBER_6)  &trans      &trans            &kp RS(CARET)    &trans      &kp SLASH        &kp JP_UNDERSCORE  &kp INTERNATIONAL_3  &kp JP_LBRACKET  &kp JP_RBRACKET  &trans
+&trans           &trans            &trans      &trans            &trans           &trans      &trans           &trans                                                                    &trans
             >;
         };
 
         NUM {
             bindings = <
-&kp F11  &kp F12  &kp F13  &kp F14  &kp F15                             &kp COLON          &kp N7        &kp N8        &kp N9        &kp LCTRL
-&kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &trans      &kp RS(COLON)  &kp MINUS          &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0
-&kp F1   &kp F2   &kp F3   &kp F4   &kp F5   &trans      &kp SLASH      &kp LS(BACKSLASH)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&trans   &trans   &trans   &trans   &trans   &trans      &trans         &trans                                                       &trans
+&kp F11  &kp F12  &kp F13  &kp F14  &kp F15                               &kp COLON          &kp N7        &kp N8        &kp N9        &kp JP_EQUAL
+&kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &trans      &kp JP_ASTERISK  &kp MINUS          &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0
+&kp F1   &kp F2   &kp F3   &kp F4   &kp F5   &trans      &kp SLASH        &kp JP_UNDERSCORE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&trans   &trans   &trans   &trans   &trans   &trans      &trans           &trans                                                       &trans
             >;
         };
 
